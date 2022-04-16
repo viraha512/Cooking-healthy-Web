@@ -1,0 +1,92 @@
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>首页</title>
+<link rel="icon" href="./images/shrae.png">
+<link href="css/movie_index.css" type=text/css rel=stylesheet>
+<script src="js/prototype.js" type=text/javascript></script>
+</head>
+<body>
+<div class="con">
+  <div class="head">
+    <div class="nav">
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="wenhua.html" >菌类文化</a></li>
+        <li><a href="caipu.html">菌类菜谱</a></li>
+        <li><a href="jiankang.html">健康</a></li>
+        <li><a href="tuijian.html" target="blank">推荐</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="lunbo"> 
+    <script src="js/changimages.js" type=text/javascript></script>
+    <table width="1000" height="314" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="left"><div class=flashbox align="center">
+            <div id=SwitchBigPic>
+              <div><a   href="#"><img class=pic src="images/01.jpg"></a></div>
+              <div><a href="#"><img class=pic src="images/02.jpg"></a></div>
+              <div><a   href="#"><img class=pic src="images/03.jpg"></a></div>
+              <div><a   href="#"><img class=pic src="images/04.jpg"></a></div>
+              <div><a  href="#"><img class=pic src="images/05.jpg"></a></div>
+            </div>
+            <ul id=SwitchNav>
+              <li><a href="#"><strong>菌鱼汤</strong><img  src="images/r1.jpg"></a> </li>
+              <li><a href="#"><strong>菌类</strong><img   src="images/r2.jpg"></a> </li>
+              <li><a href="#"><strong>菌</strong><img   src="images/r3.jpg"></a> </li>
+              <li><a href="#"><strong>菌</strong><img   src="images/r4.jpg"></a> </li>
+              <li><a href="#"><strong>菌</strong><img   src="images/r5.jpg"></a> </li>
+            </ul>
+          </div>
+          <script>
+			var bigswitch = new SwitchPic(
+				{
+					bigpic:"SwitchBigPic",
+					switchnav:"SwitchNav",
+					selectstyle:"selected",
+					objname:"bigswitch"
+				}
+			) ;
+			bigswitch.goSwitch(bigswitch,0);
+			bigswitch.autoSwitchTimer = setTimeout("bigswitch.autoSwitch(bigswitch) ;", 3000);
+		</script></td>
+      </tr>
+    </table>
+  </div>
+  <div class="main">
+    <div class="tuijian">
+      <div class="tuijian_t">展示 </div>
+      <div class="tui_div">
+        <div class="tui_div_t">菌</div>
+        <div class="tui_div_img"><a  href="#"><img class=pic src="images/1.jpg " width="190" height="116"></a></div>
+      </div>
+      <div class="tui_div">
+        <div class="tui_div_t">菌</div>
+        <div class="tui_div_img"><a  href="#"><img class=pic src="images/2.jpg" width="190" height="116"></a></div>
+      </div>
+      <div class="tui_div">
+        <div class="tui_div_t">菌</div>
+        <div class="tui_div_img"><a  href="#"><img class=pic src="images/3.jpg" width="190" height="116"></a></div>
+      </div>
+    </div>
+    <div class="share">
+      <div class="share_t">菌 <a  href="#"><img class=pic src="images/shrae.png" ></a></div>
+      <div class="">
+        <p> 菌知食品科技有限公式</p>
+        <p> 金经理 </p>
+        <p>dfask@gmail.com</p>
+      </div>
+    </div>
+    <div style="clear:both"></div>
+  </div>
+  <div class="foot">
+    <div style="clear:both"></div>
+    <p> 版权所有@2022 菌知 </p>
+  </div>
+</div>
+</body>
+</html>

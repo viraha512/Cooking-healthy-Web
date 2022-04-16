@@ -1,0 +1,129 @@
+
+.con{background:#f5f1f1;}
+.head{ margin:10px auto;}
+.nav{background:rgb(179, 180, 179); }
+.nav ul{width:760px; height:60px; margin:auto; }
+.nav li{ float:left; padding:5px 20px;}
+.nav li a{ font-family:"Lucida Calligraphy";font-size:27px; color:#fff;font-weight:lighter; line-height:50px;font-style:oblique;}
+.nav li a:hover{ font-size:28px; color:#FF6; text-decoration:none;}
+.lunbo{ width:960px; height:440px; margin:auto;}
+.main{ width:960px; height:auto; margin:auto;}
+.tuijian{ width:620px; height:180px; float:left;}
+.tuijian_t{ width:620px; height:30px; border-bottom:3px solid rgb(0, 153, 41); text-align:left; font-size:16px; font-weight:bold;}
+.tui_div{ width:190px; height:140px; float:left; margin:8px;}
+.tui_div_t{ width:180px; height:24px; background-color:rgb(0, 153, 41); color:#fff; font-size:14px; text-align:left; padding-left:10px; margin-bottom:2px;}
+.tui_div_img{width:190px; height:116px; overflow:hidden;}
+.share{ width:300px; height:180px; float:right;}
+.share p{ font-size:14px; line-height:26px; color:#666; text-align:left;}
+.share_t{width:300px; height:30px; border-bottom:3px solid rgb(0, 153, 41); text-align:left; font-size:16px; font-weight:bold;}
+
+
+
+
+.subout{width:400px; height:50px; margin:auto; font-size:18px; color:#222;}
+.sub{width:120px; height:25px; padding:5px; margin:10px; float:left; background-color:#900; text-align:center; }
+.sub:hover{ background-color:#000;}
+.sub a{ font-size:18px; color:#fff;}
+
+.main_in_ms{ margin:auto;}
+.main_in_ms img{ width:280px; height:160px; border:2px solid #eee; margin:2px; padding:2px;}
+.main_in_ms img:hover{ width:280px; height:160px; border:2px solid #900;}
+.main_in_ms li{ float:left; margin:5px;}
+
+
+.pinlun{width:980px; height:auto; margin:auto;background:url(../images/lanbj.png) top repeat-x;}
+.pinlun_t{width:930px; height:30px; margin:auto; padding:10px; padding-left:0px; border-bottom:3px solid #dc1010; color:#3e3e3e; font-size:24px;font-family:Microsoft YaHei;}
+.pinlun_div{width:930px; height:auto; margin:auto; padding:5px;border-bottom:1px dashed #ccc; }
+.pinlun_div_t{width:920px; height:20px; margin:auto; padding:5px; color:#b4bab1; font-size:14px;}
+.pinlun_div_m{width:920px; height:auto; margin:auto; padding:5px; color:#3e3e3e; font-size:14px; line-height:24px; text-align:left;}
+.pinlun_div_b{width:920px; height:20px; margin:auto; padding:5px;  color:#3e3e3e; font-size:12px; text-align:right;}
+.pinlun_div_b a{ color:#3e3e3e; font-size:12px; text-align:right; padding-left:15px;}
+.pinlun_div_b a:hover{ color:#900; font-size:12px;}
+
+.pinlun_fabiao{width:930px; height:auto; margin:auto; padding:5px; }
+.pinlun_fabiao_l{ color:#3e3e3e; font-size:24px;font-family:Microsoft YaHei; float:left;}
+.pinlun_fabiao_r{padding:5px;  color:#555; font-size:14px; text-align:right;}
+
+.pinlun_fabiao_fain{width:900px; height:80px; margin:5px auto; padding:10px; border:1px solid #ccc; font-size:14px; color:#999;}
+
+.p_input{ width:150px; height:15px;padding:3px; font-size:14px; color:#999; float:left; margin:5px; }
+
+
+
+
+ BODY {
+	BACKGROUND: #fff; FONT: 12px/20px simsun; COLOR: #595959; TEXT-ALIGN: center;
+}
+ .flashbox {
+	MARGIN-BOTTOM: 10px; OVERFLOW: hidden; POSITION: relative; HEIGHT:430px;
+}
+.flashbox .pic {PADDING-RIGHT: 1px;PADDING-LEFT: 1px; LEFT: 0px; PADDING-BOTTOM: 1px; WIDTH:750px; PADDING-TOP: 1px; POSITION: absolute; TOP: 0px; HEIGHT:430px
+}
+.flashbox UL {
+	LEFT:760px; WIDTH: 200px; POSITION: absolute; TOP: 0px
+}
+.flashbox LI {
+	MARGIN-BOTTOM: 1px; OVERFLOW: hidden; LINE-HEIGHT: 24px; HEIGHT:85px
+}
+.flashbox LI A {
+	PADDING-RIGHT: 90px; DISPLAY: block; PADDING-LEFT: 5px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; COLOR: #333; PADDING-TOP: 10px; POSITION: relative; HEIGHT:90px
+}
+.flashbox LI.selected A {
+	BACKGROUND:#fff; COLOR: #333; TEXT-DECORATION: none
+}
+.flashbox LI A:hover {
+	BACKGROUND:#74685b; COLOR: #333; TEXT-DECORATION: none
+}
+.flashbox LI STRONG {
+	DISPLAY: block;POSITION: absolute; left:110px;  OVERFLOW: hidden; CURSOR: pointer; LINE-HEIGHT:24px; HEIGHT:60px;
+}
+.flashbox LI IMG {
+	  WIDTH:100px; left:5px; POSITION: absolute; TOP:10px; HEIGHT:65px
+}
+
+
+
+/* -------------------common css -------------------------------*/
+*{ margin:0; padding:0; }
+.clear{ clear:both;}
+.fl{ float:left;}
+.fr{ float:right;}
+img{ border:none;}
+a{ text-decoration:none;}
+a:hover{ text-decoration:none;}
+li{ list-style-type:none;}
+.overflowh{overflow:hidden;}
+.p1{ padding:1px;}
+.p2{ padding:2px;}
+.p3{ padding:3px;}
+.p5{ padding:5px;}
+.p6{ padding:6px;}
+.p8{ padding:8px;}
+.p10{ padding:10px;}
+.pt5{ padding-top:5px;}
+.pt8{ padding-top:8px;}
+.pl5{ padding-left:5px;}
+.pl10{ padding-left:10px;}
+.pl15{ padding-left:15px;}
+.pl20{ padding-left:20px;}
+.pr5{ padding-right:5px;}
+.m1{ margin:1px;}
+.m2{ margin:2px;}
+.m3{ margin:3px;}
+.m5{ margin:5px;}
+.m6{ margin:6px;}
+.m8{ margin:8px;}
+.m10{ margin:10px;}
+
+.f12{ font-size:12px}
+.f14{ font-size:14px}
+.f16{ font-size:16px}
+.f18{ font-size:18px}
+.fw{ font-weight:bold;}
+
+.c888{ color:#888}
+.c999{ color:#999}
+.caaa{ color:#aaa}
+.cf00{ color:#F00}
+
+

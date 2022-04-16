@@ -1,0 +1,146 @@
+/*顶部开始*/
+.top{
+    width: 100%;height: 130px;
+}
+/*蘑菇图标*/
+.u1{
+    margin-left: 40px;
+    margin-top: 15px;
+    height: 100px;
+}
+.top h1{
+    font-family:STXingkai;
+    margin-left: 100px;
+    font-size:70px;
+    margin-top: 48px;
+    float: left;
+}
+/* 中间的文字和右侧搜索框*/
+.top_middle{
+    height: 130px;
+    width: 1350px;
+    float: right;
+}
+/*对标题颜色进行润色*/
+.top_middle h1{
+    font-family:FZYaoti;
+    margin-left: 215px;
+    font-size:40px;
+    margin-top: 48px;
+}
+.top_middle p{
+    font-family:FangSong;
+    margin-left: 380px;
+    font: size 20px;
+    margin-top: 115px;
+}
+/*右侧搜索框*/
+.top_middle input{
+    width: 255px;
+    height: 30px;
+    float: right;
+    margin-right:53px ;
+    margin-top: 50px;
+}
+.top_middle img{
+    position:relative;
+    top: 9px;
+    float: right;
+    margin-top: 47px;
+}
+/*顶部结束*/
+/*顶部导航栏*/
+.nav1{
+    margin-top: 5px;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(161, 185, 104);
+}
+/*中间部位导航栏*/
+.nav2{
+    width: 770px;
+    height: 55px;
+    margin:0px auto ;
+}
+/*导航字的定位*/
+.nav2 li{
+    list-style: none;
+    float: left;
+    margin-top: 10px;
+    width: 140px;
+    height:55px ;
+}
+.nav2 a{
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    font-family:STLiti ;
+}
+
+.nav2 li:hover{
+    background-color: rgb(175, 211, 161);
+}
+/*导航栏结束*/
+.core{
+    width: 100%;   
+    height: 612px;   
+    font-family: 'Open Sans',sans-serif;   
+    margin: 0;   
+    background-image: url("D:\\学习文件\\一些\\大创\\菌\\images\\031.jpg");
+}
+#login{   
+    position: absolute;   
+    top: 50%;   
+    left:50%;   
+    margin: -150px 0 0 -150px;   
+    width: 300px;   
+    height: 300px;   
+}   
+#login h1{   
+    color: rgb(147, 173, 152);   
+    text-shadow:0 0 10px;   
+    letter-spacing: 1px;   
+    text-align: center;   
+}   
+h1{   
+    font-size: 2em;   
+    margin: 0.67em 0;   
+}   
+input{   
+    width: 278px;   
+    height: 18px;   
+    margin-bottom: 10px;   
+    outline: none;   
+    padding: 10px;   
+    font-size: 13px;   
+    color: #fff;   
+    text-shadow:1px 1px 1px;   
+    border-top: 1px solid #312E3D;   
+    border-left: 1px solid #312E3D;   
+    border-right: 1px solid #312E3D;   
+    border-bottom: 1px solid #56536A;   
+    border-radius: 4px;   
+    background-color: #2D2D3F;   
+}   
+.but{   
+    width: 270px;   
+    min-height: 20px;   
+    display: block;   
+    background-color: #4a77d4;   
+    border: 1px solid #3762bc;   
+    color: #fff;   
+    padding: 9px 14px;   
+    font-size: 15px;   
+    line-height: normal;   
+    border-radius: 5px;   
+    margin: 0;   
+}  
+.end{
+    width: 100%;
+    height: 112px;
+    border: 1px solid gold;
+    background-color: rgb(161, 185, 104);
+}
+.end p{
+    display: flex;  justify-content: center;  align-items: center;
+}
